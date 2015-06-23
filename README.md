@@ -1,4 +1,5 @@
-# MANTA - A tool for prioritizing single nucleotide variants (SNVs) within transcription factor binding sites (TFBS). 
+# MANTA
+A tool for prioritizing single nucleotide variants (SNVs) within transcription factor binding sites (TFBS). 
 
 > This is a fork of the original MANTA repository developed by the Wasserman Lab at the CMMT. Please see this [link for the original repository](https://github.com/wassermanlab/Manta).
 
