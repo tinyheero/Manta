@@ -5,7 +5,7 @@ A tool for prioritizing single nucleotide variants (SNVs) within transcription f
 
 * See this [page for more documentation on the MANTA software](http://manta.cmmt.ubc.ca/manta/help.html).
 
-# Installing Manta
+# Installing MANTA
 
 First clone the repository:
 
@@ -13,7 +13,7 @@ First clone the repository:
 git clone git@github.com:tinyheero/Manta.git
 ```
 
-Before you can run Manta, you need to make sure you the following python modules:
+Before you can run MANTA, you need to make sure you the following python modules:
 
 * pymongo
 
@@ -23,16 +23,16 @@ You can install this using pip:
 pip install pymongo
 ```
 
-# To Run Manta
+# To Run MANTA
 
-Manta can take several input files (VCF, GFF, BED) as specified in this [page](http://manta.cmmt.ubc.ca/manta/help.html). To run Manta, you can go:
+MANTA can take several input files (VCF, GFF, BED) as specified in this [page](http://manta.cmmt.ubc.ca/manta/help.html). To run MANTA, you can go:
 
 ```
 MANTA_PATH=/path/to/MANTA
 $MANTA_PATH/scripts/search_impacts.py -i /path/to/input/file -o out.manta
 ```
 
-# Manta Output
+# MANTA Output
 
 The output of MANTA is specified in the "MANTA Results" section in this [page](http://manta.cmmt.ubc.ca/manta/help.html). This section is taken from it:
 
